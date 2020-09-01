@@ -1,0 +1,29 @@
+<apex:page StandardController="Order_Item__c" recordSetVar="orderItems"> 
+
+<!-- 
+    Designer: Brad Edgerly brad.edgerly@creativesparq.ca 403-815-1550
+    Design Date: 2020-08-31
+    
+    Purpose:  
+    A professional services company users orders and order items to provide and fulfill commitments to its customers. The "Add Order Items to Order" Visualforce page increases the speed and accuracy of a sales representative creating a new order.
+    
+    Without this UI, sales representatives use Global Search to find previous order items then use the out-of-the-box clone functionality to copy appropriate attributes. This is many clicks and is error-prone.
+    
+    The page is called from an "Add Order Items" button on the Order Item related list on the Order__c page layout.
+    
+    This Visualforce page allows sales representatives to quickly search for previous order items, select/deselect items, and save new order items against the originating order.
+
+    The initial user interface mock-up is included at design/user_interface_mockup.png.
+
+    The objects and fields that this page interfaces with is included in /design/EntityRelationshipDiagram.png.
+
+    The user interface leverages Salesforce Lightning Design System.
+
+-->
+
+<!-- Functionality -->
+
+
+
+
+</apex:page>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Order__c</members>
+        <members>Order_Item__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Add_Order_Items_to_Order</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Order_Item__c.Add_Order_Items</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Order_Item_Status</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Order_And_Order_Item_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Order__c-OrderLayout</members>
+        <name>Layout</name>
+    </types>
+    <!-- <types>
+        <members></members>
+        <name></name>
+    </types> -->
+    <version>48.0</version>
+</Package>

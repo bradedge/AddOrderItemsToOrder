@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>The page is called from an&quot; Add Order Items&quot; button on the Order Item related list on the Order__c page layout.
+This Visualforce page allows sales representatives to quickly search for previous order items, select/deselect items, and save new order items against the originating order.</description>
+    <label>Add_Order_Items_to_Order</label>
+</ApexPage>
