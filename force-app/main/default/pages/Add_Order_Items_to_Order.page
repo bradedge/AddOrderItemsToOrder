@@ -13,7 +13,7 @@
     
     This Visualforce page allows sales representatives to quickly search for previous order items, select/deselect items, and save new order items against the originating order.
 
-    The initial user interface mock-up is included at design/user_interface_mockup.png.
+    The initial user interface mock-up is included at design/UserInterfaceMockup.png.
 
     The objects and fields that this page interfaces with is included in /design/EntityRelationshipDiagram.png.
 

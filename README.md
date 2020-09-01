@@ -11,13 +11,15 @@ The "Add Order Items to Order" Visualforce page increases the speed and accuracy
 This Visualforce page allows sales representatives to quickly search for previous order items, select/deselect items, and save new order items against the originating order.
 
 __Request__:
-Please create "force-app\main\default\pages\Add_Order_Items_to_Order" and required controllers.
+Please build out the Visualforce page ("force-app\main\default\pages\Add_Order_Items_to_Order") and required controllers.
+
+If you have questions, your team is here to help. Please contact brad.edgerly@creativesparq.ca.
 
 # Setup 
-1. Navigate to your home directory.
+1. Navigate to your home directory in Visual Studio Code.
 2. Pull down repository.
 `git clone https://github.com/bradedge/AddOrderItemsToOrder.git`
-3. Navidate to project directory.
+3. Navigate to project directory.
 `cd AddOrderItemsToOrder`
 4. Create a branch and check it out.
 `git branch mybranch`
@@ -29,6 +31,8 @@ Please create "force-app\main\default\pages\Add_Order_Items_to_Order" and requir
 `sfdx force:source:deploy -u MyScratch -x package.xml`
 8. Assign permission set to access fields
 `sfdx force:user:permset:assign --permsetname Order_And_Order_Item_Access --targetusername MyScratch`
+9. Populate data
+`sfdx force:data:tree:import -f assets/data/Order__c-Order_Item__c.json -u MyScratch`
 9. Happy coding!
 
 # Push back

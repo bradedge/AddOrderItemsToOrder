@@ -25,9 +25,18 @@
         <members>Order__c-OrderLayout</members>
         <name>Layout</name>
     </types>
-    <!-- <types>
+    <types>
+        <members>Order__c</members>
+        <members>Order_Item__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members></members>
         <name></name>
-    </types> -->
+    </types>
     <version>48.0</version>
 </Package>
